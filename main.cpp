@@ -142,7 +142,6 @@ int main(int argc, char** argv) {
         Wheel("16inches"), Wheel("16inches")
     };
 
-    
     Car car(engine, chassis, body, wheels, lights);
     
     car.print();
